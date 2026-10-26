@@ -1,0 +1,14 @@
+{
+  "name": "dark-ninja-bin-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small backend proxy for public BIN/IIN metadata lookups",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0"
+  }
+}
